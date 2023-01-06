@@ -1,0 +1,7 @@
+ icon-smoke_free
+icon-shopping-cart
+ icon-javascript
+ icon-sphere
+ icon-facebook2
+ icon-twitter
+ icon-youtube
