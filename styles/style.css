@@ -224,6 +224,11 @@ body {
   text-decoration: none;
   color: #fff;
 }
+.video {
+  height: 12rem;
+  width: 15rem;
+  background-color: tomato;
+}
 .footer {
   background-color: #151414;
   display: flex;
@@ -311,4 +316,40 @@ body {
 input::placeholder {
   color: #f8f8f8;
   opacity: 0.5;
+}
+.blur-video {
+  position: relative;
+  margin-top: 16rem;
+  border-bottom: 1rem solid #151414;
+  margin-bottom: 18rem;
+}
+video {
+  filter: opacity(90%);
+  /* transform: translateX(10%) translateY(40%); */
+}
+
+.bv-title {
+  font-size: 8rem;
+  font-weight: 700;
+  line-height: 4rem;
+  position: absolute;
+  letter-spacing: 5px;
+  background-color: #00bfff38;
+  height: 11rem;
+  width: 161rem;
+  top: 50%;
+  border: 0.5rem solid #151414;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dot {
+  font-size: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: -12rem;
+  margin-bottom: -3rem;
 }
