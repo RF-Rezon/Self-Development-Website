@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.title {
+  font-size: 6.5rem;
+  font-weight: 700;
+  line-height: 76.25px;
+  color: #151414;
+  margin-right: 23rem;
+  margin-bottom: 2.4rem;
+}
+.all {
+  margin-left: 2rem;
+}
+.believe {
+  margin-left: 23.5rem;
+}
+.short-title {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 26px;
+  color: #444343;
+  margin-right: 20.2rem;
+  margin-bottom: 3.2rem;
+  width: 49.6rem;
+  height: 7.8rem;
+  align-self: flex-start;
+}
+.there {
+  margin-left: 3.5rem;
+}
+.words {
+  margin-left: 9rem;
+}
+.btn {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.346rem;
+  color: #fff;
+  padding: 2rem 2.5rem;
+  background-color: #f15b22;
+  border-radius: 0.5rem;
+  border: none;
+  margin-right: 23.5rem;
+}
+.header {
+  background-color: blue;
+  height: 100vh;
+  background-image: url(../images/banner/banner2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100%;
+  justify-content: center;
+}
+.personal {
+  padding: 10rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.left-side-image {
+  margin-left: 8rem;
+}
+.hero {
+}
+
+.right-side-future {
+  flex-basis: 50%;
+  margin-top: 12rem;
+  margin-left: 8.5rem;
+}
+.checkBox .check {
+  height: 24px;
+  width: 24px;
+}
+.paragaraph {
+}
+.paragaraph-first {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4.692rem;
+  color: #151414;
+  margin-bottom: 2.4rem;
+}
+.paragaraph-sceond {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #444343;
+  margin-bottom: 1.6rem;
+  width: 45rem;
+}
+.checkBox {
+}
+.check-title {
+  display: flex;
+  gap: 1.4rem;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+.check {
+  fill: #16d887;
+}
+.tit {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #444343;
+}
