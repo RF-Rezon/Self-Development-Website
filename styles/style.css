@@ -1,3 +1,5 @@
+/* Universal Scope*/
+
 * {
   padding: 0;
   margin: 0;
@@ -11,6 +13,8 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+/* Header Section*/
+
 .title {
   font-size: 6.5rem;
   font-weight: 700;
@@ -21,23 +25,23 @@ body {
 }
 .all {
   margin-left: 2rem;
-}
-.believe {
-  margin-left: 23.5rem;
+  text-align: right;
+  width: 51rem;
 }
 .short-title {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 26px;
   color: #444343;
-  margin-right: 20.2rem;
-  margin-bottom: 3.2rem;
+  margin-right: 23rem;
+  margin-bottom: 3rem;
   width: 49.6rem;
   height: 7.8rem;
   align-self: flex-start;
 }
 .there {
   margin-left: 3.5rem;
+  text-align: right;
 }
 .words {
   margin-left: 9rem;
@@ -51,11 +55,10 @@ body {
   background-color: #f15b22;
   border-radius: 0.5rem;
   border: none;
-  margin-right: 23.5rem;
+  margin-right: 23rem;
   cursor: pointer;
 }
 .header {
-  background-color: blue;
   height: 100vh;
   background-image: url(../images/banner/banner2.png);
   background-repeat: no-repeat;
@@ -68,6 +71,9 @@ body {
   height: 100%;
   justify-content: center;
 }
+
+/* Main Section*/
+
 .personal {
   padding: 10rem;
 
@@ -80,8 +86,6 @@ body {
 .left-side-image {
   margin-left: 7.5rem;
 }
-.hero {
-}
 
 .right-side-future {
   flex-basis: 50%;
@@ -92,8 +96,7 @@ body {
   height: 24px;
   width: 24px;
 }
-.paragaraph {
-}
+
 .paragaraph-first {
   font-weight: 700;
   font-size: 4rem;
@@ -109,8 +112,7 @@ body {
   margin-bottom: 1.6rem;
   width: 45rem;
 }
-.checkBox {
-}
+
 .check-title {
   display: flex;
   gap: 1.4rem;
@@ -125,8 +127,6 @@ body {
   font-size: 1.6rem;
   line-height: 2.6rem;
   color: #444343;
-}
-.plans-gradient {
 }
 .plans-box {
   display: flex;
@@ -180,7 +180,7 @@ body {
   font-size: 2.5rem;
   font-weight: 500;
   line-height: 2.933rem;
-  color: #151414;
+  color: #737272;
   text-align: center;
 }
 .gradient-box {
@@ -199,7 +199,7 @@ body {
   width: 50rem;
   position: absolute;
   left: 6.4rem;
-  top: 6.9rem;
+  top: 5.6rem;
 }
 .typo-fild {
   font-size: 4rem;
@@ -212,11 +212,14 @@ body {
   color: #f15b22;
   margin-top: 2.4rem;
 }
+.btn-submit {
+  margin-top: 1rem;
+}
 .anchor {
   cursor: pointer;
   padding: 0.5rem 1.5rem;
   text-decoration: none;
-  color: #151414;
+  color: #f15b22;
 }
 .anchor-first {
   cursor: pointer;
@@ -229,6 +232,52 @@ body {
   width: 15rem;
   background-color: tomato;
 }
+
+/* Video Section*/
+
+.blur-video {
+  position: relative;
+  margin-top: 16rem;
+  border-bottom: 1rem solid #151414;
+  margin-bottom: 18rem;
+}
+video {
+  filter: opacity(90%);
+}
+
+.bv-title {
+  font-size: 8rem;
+  font-weight: 00;
+  line-height: 4rem;
+  position: absolute;
+  letter-spacing: 5px;
+  background-color: rgb(149 44 16 / 32%);
+  height: 11rem;
+  width: 161rem;
+  top: 50%;
+  border: 0.5rem solid #151414;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fdeeee;
+  letter-spacing: 5px;
+  font-family: impact;
+  -webkit-text-stroke: 2px black;
+}
+
+/* Dot Section*/
+.dot {
+  font-size: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: -12rem;
+  margin-bottom: -3rem;
+}
+
+/* Footer Section*/
+
 .footer {
   background-color: #151414;
   display: flex;
@@ -259,8 +308,7 @@ body {
   color: #fff;
   margin-bottom: 2.4rem;
 }
-.flb-links {
-}
+
 .contact {
   margin-bottom: 3.2rem;
 }
@@ -279,17 +327,12 @@ body {
   line-height: 2.6rem;
   color: #fff;
 }
-.contact-icons {
-}
 
-.contact-icons > img {
-}
 .footer-right {
   padding: 15rem 0;
   margin-left: 20rem;
 }
-.footer-right-box {
-}
+
 .subscribe {
   font-size: 2.5rem;
   font-weight: 600;
@@ -297,8 +340,7 @@ body {
   color: #fff;
   margin-bottom: 3rem;
 }
-.form {
-}
+
 .input {
   font-size: 1.8rem;
   font-weight: 400;
@@ -317,39 +359,5 @@ input::placeholder {
   color: #f8f8f8;
   opacity: 0.5;
 }
-.blur-video {
-  position: relative;
-  margin-top: 16rem;
-  border-bottom: 1rem solid #151414;
-  margin-bottom: 18rem;
-}
-video {
-  filter: opacity(90%);
-  /* transform: translateX(10%) translateY(40%); */
-}
 
-.bv-title {
-  font-size: 8rem;
-  font-weight: 700;
-  line-height: 4rem;
-  position: absolute;
-  letter-spacing: 5px;
-  background-color: #00bfff38;
-  height: 11rem;
-  width: 161rem;
-  top: 50%;
-  border: 0.5rem solid #151414;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.dot {
-  font-size: 12rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  margin-top: -12rem;
-  margin-bottom: -3rem;
-}
+/*Section Endgame*/
