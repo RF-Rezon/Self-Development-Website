@@ -52,6 +52,7 @@ body {
   border-radius: 0.5rem;
   border: none;
   margin-right: 23.5rem;
+  cursor: pointer;
 }
 .header {
   background-color: blue;
@@ -73,9 +74,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-left: 7rem;
+  gap: 2rem;
 }
 .left-side-image {
-  margin-left: 8rem;
+  margin-left: 7.5rem;
 }
 .hero {
 }
@@ -122,4 +125,190 @@ body {
   font-size: 1.6rem;
   line-height: 2.6rem;
   color: #444343;
+}
+.plans-gradient {
+}
+.plans-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1rem 8.5rem 1rem;
+}
+.plans-title {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.692rem;
+  color: #151414;
+  padding: 2rem 1rem;
+  margin-bottom: 1rem;
+}
+.plans-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 8.5rem;
+}
+.plans-icon {
+  margin-right: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.single-icon {
+  height: 5.5rem;
+  width: 5.5rem;
+}
+.web {
+  fill: rgb(46, 173, 46);
+}
+.smoke {
+  fill: rgb(240, 47, 47);
+}
+.shopping {
+  fill: rgb(23, 23, 194);
+}
+.to-be-bold {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.519rem;
+  color: #151414;
+  text-align: center;
+  margin: 1rem 0;
+}
+.to-be-thin {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 2.933rem;
+  color: #151414;
+  text-align: center;
+}
+.gradient-box {
+  background-color: #16d887;
+  margin: 0 auto;
+  width: 114rem;
+  height: 30rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(to right, #f15b22, rgba(241, 91, 34, 0)), url("../images/watch.png");
+  background-size: cover;
+  position: relative;
+}
+.text-btn {
+  height: 21rem;
+  width: 50rem;
+  position: absolute;
+  left: 6.4rem;
+  top: 6.9rem;
+}
+.typo-fild {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.692rem;
+  color: #fff;
+}
+.btn-white {
+  background-color: #fff;
+  color: #f15b22;
+  margin-top: 2.4rem;
+}
+.anchor {
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  color: #151414;
+}
+.anchor-first {
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  color: #fff;
+}
+.footer {
+  background-color: #151414;
+  display: flex;
+  align-items: center;
+  margin-top: 17rem;
+}
+.footer-left {
+  flex-basis: 50%;
+}
+.footer-left-box {
+  width: 48.5rem;
+  height: 31.7rem;
+
+  margin: 13rem 0;
+  margin-left: 23rem;
+}
+.flb-title {
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 5.279rem;
+  color: #f8f8f8;
+  margin-bottom: 1.6rem;
+}
+.flb-paragaraph {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  color: #fff;
+  margin-bottom: 2.4rem;
+}
+.flb-links {
+}
+.contact {
+  margin-bottom: 3.2rem;
+}
+.anchor-icons {
+  margin-right: 1.7rem;
+}
+.contact-email {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  color: #fff;
+}
+.contact-number {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  color: #fff;
+}
+.contact-icons {
+}
+
+.contact-icons > img {
+}
+.footer-right {
+  padding: 15rem 0;
+  margin-left: 20rem;
+}
+.footer-right-box {
+}
+.subscribe {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 2.9rem;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+.form {
+}
+.input {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.1rem;
+  color: #fff;
+  display: block;
+  height: 5.4rem;
+  width: 32.5rem;
+  border-radius: 0.8rem;
+  border: 2px solid #f8f8f8;
+  margin-bottom: 1.6rem;
+  background-color: #151414;
+  padding: 2rem 2rem;
+}
+input::placeholder {
+  color: #f8f8f8;
+  opacity: 0.5;
 }
